@@ -70,7 +70,7 @@ class ProfileSerializer(serializers.ModelSerializer):
 
         return profile
 
-    
+     
 class ProfilePictureSerializer(serializers.ModelSerializer):
     class Meta:
         model = Profile
